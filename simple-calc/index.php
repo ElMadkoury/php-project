@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             } else {
                 $sum = "Cannot divide by zero";
             }
+            
             break;
         default:
             $sum = "Invalid operator";
