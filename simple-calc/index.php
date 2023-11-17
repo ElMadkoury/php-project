@@ -25,6 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         default:
             $sum = "Invalid operator";
     }
+    
 }
 ?>
 <div class="container" style="display:flex;justify-content:center;align-items:center;height:100%">
